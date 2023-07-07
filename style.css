@@ -1,0 +1,55 @@
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Belanosima', sans-serif;
+    
+}
+
+label {
+    text-align: left;
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.borde {
+    border: solid;
+}
+
+.Link1 {
+    font-size: 12px;
+    padding-left: 70px;
+}
+button {
+    height: 50px;
+}
+fieldset {
+    border: solid red;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 200px;
+    width: auto;
+    margin: auto;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+.guardar {
+    font-size: 12px;
+}
+
+body {
+
+    
+}
+
+
+ 
