@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    max-width: 450px;
+    min-width: 200px;
+    width: auto;
+    margin: auto;
+    border: solid red;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding: 20px;
+}
+form {
+    margin-top: 30px;
+}
+#email {
+    width: 382px;
+    margin-top: 7px;
+}
+#password {
+    margin-top: 7px;
+}
+#password2 {
+    margin-top: 7px;
+}
+
+#birthday {
+    margin-top: 7px;
+}
+#mujer {
+    margin-left: 47px;
+}
+#hombre {
+    margin-left: 17px;
+}
+button {
+    margin: auto;
+    width: auto;
+    margin-left: 145px;
+    margin-top: 15px;
+}
+p {
+    text-align: center;
+    margin-top: 15px;
+}
