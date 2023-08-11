@@ -5,50 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="app1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style1.css">
-    <script>
-        function registrarse() {
-        var nombre = document.getElementById("nombre").value;
-        var apellido = document.getElementById("apellido").value;
-        var mail = document.getElementById("email").value;
-        var password = document.getElementById("password").value;
-        var password2 = document.getElementById("password2").value;
-        var birthday = document.getElementById("birthday").value;
-        if (nombre == "") {
-            document.getElementById("resultado").innerHTML = "Falta ingresar nombre";
-            return;
-        }
-        if (apellido == "") {
-            document.getElementById("resultado").innerHTML = "Falta ingresar apellido";
-            return;
-        }
-        if (mail == "") {
-            document.getElementById("resultado").innerHTML = "Falta ingresar mail";
-            return;
-        }
-        if (password == "") {
-            document.getElementById("resultado").innerHTML = "Falta ingresar password";
-            return;
-        }
-        if (password2 == "") {
-            document.getElementById("resultado").innerHTML = "Falta confirmar password";
-            return;
-        }
-        /*if (birthday == "") {
-            document.getElementById("resultado").innerHTML = "Falta fecha de nacimiento";
-            return;
-        }*/
-        if (nombre == "Renato" && apellido == "Herrera" && mail == "miemail@gmail.com" && password == "mipassword" && password2 == "mipassword" ) {
-            //Registro completado;
-            location.href = "https://www.google.com/?hl=es";
-        } else {
-            document.getElementById("resultado").innerHTML = "Datos incorrectos";
-        }
-
-
-
-        }
-    </script>
 </head>
 <body>
     <h1>Registrarse</h1>
@@ -79,7 +38,7 @@
         <div></div>
         <div>
             <button onclick="registrarse()" type="button" class="btn btn-success">Registrarse!</button>
-            <div id="resultado"></div>
+            <div class="resultado"></div>
         </div>
         </fieldset>
     </form>
