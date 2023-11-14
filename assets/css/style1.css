@@ -40,16 +40,18 @@ form {
 #hombre {
     margin-left: 17px;
 }
-button {
-    margin: auto;
-    width: auto;
-    margin-left: 145px;
-    margin-top: 15px;
-}
 p {
     text-align: center;
     margin-top: 15px;
 }
-.resultado {
+
+button {
+    margin: auto;
+    width: auto;
+    margin-left: 180px;
+    margin-top: 15px;
+} 
+
+.alerta {
     text-align: center;
 }

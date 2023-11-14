@@ -1,16 +1,14 @@
 function login() {
-    var email = $("#email").val();
-    var password = $("#password").val();
-    if(email == "") {
-        $(".resultado").html("Falta ingresar email")
+    var varEmail = $("#email").val();
+    var varPassword = $("#password").val();
+    if (varEmail == "") {
+        $(".resultado").html("Falta ingresar email");
         return;
-    } if(password == "") {
-        $(".resultado").html("Falta ingresar password")
+    }
+    if (varPassword == "") {
+        $(".resultado").html("Falta ingresar passwrd");
         return;
-    } if(email == "a@a.com" && password == 123) {
-    //Login correcto
-    location.href = "https://herrerarenato.github.io/"
-    } else {
-        $(".resultado").html("Email o password incorrectos")
     }
 }
+
+
